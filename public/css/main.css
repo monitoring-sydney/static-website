@@ -2,6 +2,20 @@ html, body {
     height: 100%;
     background-color: #112;
   }
+
+  .social-container {
+    position: absolute;
+    z-index: 99999;
+  }
+  
+  .social-logo {
+    font-size: 5em;
+    background: radial-gradient(transparent 65%, #ff0488 100%), linear-gradient(#ffcb55 0, #ff0488 100%);
+    -webkit-animation: hue-rotate 60s ease-in-out infinite 5s;
+            animation: hue-rotate 60s ease-in-out infinite 5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   
   input[type="checkbox"] {
     display: none;
