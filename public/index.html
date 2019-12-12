@@ -11,6 +11,8 @@
     <meta property="og:image" content="https://monitoring.sydney/img/monitoring-syd-og.png" />
     <meta property="og:image:secure_url" content="https://monitoring.sydney/img/monitoring-syd-og.png" />
     <meta property="og:description" content="Sydney's Monitoring & Observability Meetup" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/getMeetups.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134665544-2"></script>
     <script>
@@ -21,6 +23,7 @@
     gtag('config', 'UA-134665544-2');
     </script>
     -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/fontawesome.css">
@@ -29,6 +32,13 @@
     <div class="social-container">
         <a href="https://twitter.com/SydMonitoring"><i class="fab fa-twitter social-logo"></i></a>
         <a href="https://www.meetup.com/en-AU/meetup-group-BjKspgGT"><i class="fab fa-meetup social-logo"></i></a>
+    </div>
+    <div id="info-section" class="info">
+        <h2>Upcoming Event:</h2>
+        <div id="meetupName"></div>
+        <div id="meetupDatetime"></div>
+        <div id="venueInfo"></div>
+        <div id="attendance"></div>
     </div>
     <img src="img/monitoring-sydney.png" class="logo" />
     <div class="scene float">
