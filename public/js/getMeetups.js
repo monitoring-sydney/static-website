@@ -11,7 +11,7 @@ $.ajax({
         var venueName = venue.name;
         var venueAddress = venue.address_1 + ', ' + venue.city;
         $("#meetupName").text(meetupName);
-        $("#meetupDataTime").text(meetupDate + ' @ ' + meetupTime + 'pm');
+        $("#meetupDatetime").text(meetupDate + ' @ ' + meetupTime + 'pm');
         $('#venueInfo').text(venueName + ', ' + venueAddress);
         $('#attendance').text(attending + ' attending.');
     }
