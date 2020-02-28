@@ -37,9 +37,10 @@ html, body {
 
   .email {
     background-color: #112;
-    border-color: #f0fd56;
+    border: 1px solid #f0fd56;
     color: #f0fd56;
-    width: 70%;
+    font-size: 17px;
+    width: 65%;
   }
 
   .inline {
@@ -49,6 +50,7 @@ html, body {
   .button {
     font-family: 'Space Mono', monospace;
     background-color: #f0fd56;
+    font-size: 17px;
     color: #112;
     border-style: none;
   }
@@ -214,8 +216,7 @@ html, body {
         width: 100%;
     }
     .info {
-      top: 16%;
-      left: 35%;
-      font-size: 30px;
+      left: 54%;
+      width: 100%;
     }
 }
