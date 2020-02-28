@@ -11,6 +11,7 @@ html, body {
   }
 
   .social-container {
+    top: 5%;
     position: absolute;
     z-index: 99999;
   }
@@ -23,6 +24,33 @@ html, body {
     left: 15%;
     transform: translate(-50%, -50%);
     z-index: 9999;
+  }
+
+  .signup {
+    position: absolute;
+    color: #f0fd56;
+    font-size: 15px;
+    z-index: 9998;
+    top: 75%;
+    left: 80%;
+  }
+
+  .email {
+    background-color: #112;
+    border-color: #f0fd56;
+    color: #f0fd56;
+    width: 70%;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .button {
+    font-family: 'Space Mono', monospace;
+    background-color: #f0fd56;
+    color: #112;
+    border-style: none;
   }
   
   .social-logo {
