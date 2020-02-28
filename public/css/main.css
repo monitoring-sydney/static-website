@@ -27,6 +27,7 @@ html, body {
   }
 
   .signup {
+    font-family: 'Space Mono', monospace;
     position: absolute;
     color: #f0fd56;
     font-size: 15px;
@@ -36,6 +37,7 @@ html, body {
   }
 
   .email {
+    font-family: 'Space Mono', monospace;
     background-color: #112;
     border: 1px solid #f0fd56;
     color: #f0fd56;
