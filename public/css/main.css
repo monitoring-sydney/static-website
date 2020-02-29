@@ -215,10 +215,16 @@ html, body {
         background-size: 200vmax
     }
     .logo {
-        width: 100%;
+        width: 90%;
     }
     .info {
       left: 54%;
       width: 100%;
+    }
+    .social-container {
+      left: 5%;
+    }
+    .social-logo {
+      font-size: 3em;
     }
 }
