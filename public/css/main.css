@@ -12,6 +12,7 @@ html, body {
 
   .social-container {
     top: 5%;
+    left: 3vw;
     position: absolute;
     z-index: 99999;
   }
