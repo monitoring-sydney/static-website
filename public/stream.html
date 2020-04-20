@@ -1,0 +1,55 @@
+<head>
+    <title>monitoring.sydney</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="monitoring.sydney">
+    <meta name="twitter:description" content="Sydney's Monitoring & Observability Meetup">
+    <meta name="twitter:image" content="https://monitoring.sydney/img/monitoring-syd-og.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="monitoring.sydney"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://monitoring.sydney/img/monitoring-syd-og.png" />
+    <meta property="og:image:secure_url" content="https://monitoring.sydney/img/monitoring-syd-og.png" />
+    <meta property="og:description" content="Sydney's Monitoring & Observability Meetup" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/getMeetups.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134665544-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134665544-2');
+    </script>
+    -->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+</head>
+<body>
+    <div class="social-container">
+        <img src="img/monitoring-sydney.png" class="img-social" />
+        <a href="https://twitter.com/SydMonitoring"><i class="fab fa-twitter social-logo"></i></a>
+        <a href="https://www.meetup.com/en-AU/meetup-group-BjKspgGT"><i class="fab fa-meetup social-logo"></i></a>
+        <a href="https://communityinviter.com/apps/monitoring-sydney/monitoring-sydney"><i class="fab fa-slack social-logo"></i></a>
+    </div>
+
+    <div id="stream-section" class="stream">
+        <div id="twitch-embed"></div>
+    </div>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+          width: 1024,
+          height: 576,
+          channel: "monitoredaf"
+        });
+      </script>
+</body>
