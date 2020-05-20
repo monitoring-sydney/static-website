@@ -28,8 +28,8 @@ $.ajax({
         var meetupDate = dateParser(data.local_date);
         var meetupTime = timeParser(data.local_time);
         var attending = data.yes_rsvp_count;
-        var venueName = venue.name;
-        var venueAddress = `${venue.address_1}, ${venue.city}`;
+        var venueName = (typeof venue.name === 'undefined' ? '' : venue.name);
+        var venueAddress = (typeof venue.address_1 === 'undefined' || typeof venue.city === 'undefined' ? '' : `${venue.address_1}, ${venue.city}`);
         $("#meetupName").text(meetupName);
         $("#meetupDatetime").text(`${meetupDate} @ ${meetupTime}`);
         $('#venueInfo').text(`${venueName}, ${venueAddress}`);
